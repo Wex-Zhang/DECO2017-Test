@@ -63,7 +63,7 @@ function displaySwimEntry(entry, index) {
     let card = document.createElement('div');
     card.className = 'card';
     card.innerHTML = `
-        <nobr><h1>${entry.duration}</h1></nobr> 
+        <h1>${entry.duration}</h1> 
         <h4> Min</h4>
         <h4>Swim Duration</h4>
         <h4>${entry.distance} Me</h4>
